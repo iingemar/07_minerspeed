@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Miner speed</title>
+        <script type="text/javascript" src="libs/jquery-1.7.1.js"></script>
+        <script type="text/javascript" src="libs/RequestAnimationFrame.js"></script>	
+        <script type="text/javascript" src="libs/SimpleJavascriptInheritance.js"></script>
+        <script type="text/javascript" src="Tween.js"></script>
+		<script type="text/javascript" src="block.js"></script>  
+		<script type="text/javascript" src="Miner.js"></script>
+        <style>
+            #canvas{
+                border:1px solid black;
+                margin:5px;
+            }
+            #output{
+                position:absolute;
+                top:0px;
+                left:780px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>        
+            <canvas id="canvas" width="755" height="583"></canvas>
+            <div id="output">
+                <pre>
+                    <div class="one"></div>
+                    <div class="two"></div>                    
+                </pre>
+            </div>
+        </div>
+    </body>
+</html>
